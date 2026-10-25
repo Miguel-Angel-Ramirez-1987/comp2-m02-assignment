@@ -17,7 +17,7 @@ Read the [lecture companion](https://whccd.instructure.com/courses/30394/modules
 Keep the supplied signature:
 
 ```javascript
-calculateTicketTotal(priceText, quantityText, hasDiscount = false)
+calculateTicketTotal(priceText, quantityText, (hasDiscount = false));
 ```
 
 - The first two arguments are strings. Check each for blank/whitespace **before** converting with `Number`.
@@ -35,10 +35,10 @@ Choose concrete inputs for each family: valid values, zero boundaries, decimal p
 
 Write expected results before running. Record actual results honestly, including unresolved failures.
 
-| Input / action | Expected before running | Actual observed | Explanation / repair and retest |
-|---|---|---|---|
-| Initial stub call | [predict] | [observe] | [explain the unfinished baseline] |
-| [your distinct boundary/error case] | [expected result] | [observed result] | [why this case matters] |
+| Input / action                      | Expected before running | Actual observed   | Explanation / repair and retest   |
+| ----------------------------------- | ----------------------- | ----------------- | --------------------------------- |
+| Initial stub call                   | [predict]               | [observe]         | [explain the unfinished baseline] |
+| [your distinct boundary/error case] | [expected result]       | [observed result] | [why this case matters]           |
 
 ## Explain your synthesis in this README
 
@@ -68,3 +68,13 @@ Keep credentials and personal information out of public repositories. If public 
 ## Academic integrity
 
 AI-assisted and AI-generated student content is prohibited. Complete and explain your own work under the existing course policy, consequences, and review process.
+
+## Testing and Explainations
+
+I used the rules to coding to build the code I used in this assignment.
+
+I periodically ran debug and continuously recieved an error.
+
+In the effort to remedy the error. I learned more about program structure. My code reflects what I learned.
+
+I look forward to learning how to troubleshoot my code.
